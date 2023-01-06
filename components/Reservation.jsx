@@ -105,7 +105,7 @@ const handleClick = () =>{
        <span >
        {
         isSending 
-        ? 'Göndərilir....'
+        ? 'Göndərilir...'
         : isSend 
         ?' Uğurla göndərildi  ' 
         : 'İndi göndər'
