@@ -22,21 +22,21 @@ const Search = ({ setIsSearchModal }) => {
                   <Image src="/images/photo.png" alt="" width={48} height={48} />
                 </div>
                 <span className="font-bold">Məhsul1</span>
-                <span className="font-bold">$10</span>
+                <span className="font-bold">AZN 10</span>
               </li>
               <li className="flex items-center justify-between p-1 hover:bg-primary transition-all">
                 <div className="relative flex">
                   <Image src="/images/photo.png" alt="" width={48} height={48} />
                 </div>
                 <span className="font-bold">Məhsul2</span>
-                <span className="font-bold">$10</span>
+                <span className="font-bold">AZN 20</span>
               </li>
               <li className="flex items-center justify-between p-1 hover:bg-primary transition-all">
                 <div className="relative flex">
                   <Image src="/images/photo.png" alt="" width={48} height={48} />
                 </div>
                 <span className="font-bold">Məhsul3</span>
-                <span className="font-bold">$10</span>
+                <span className="font-bold">AZN 40</span>
               </li>
             </ul>
             <button
