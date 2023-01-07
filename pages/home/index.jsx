@@ -17,8 +17,9 @@ const Index = () => {
   return (
     <React.Fragment  >
     <Carousel />
+    <Campaigns />
     <Tech />
-   <Campaigns />
+  
     < ServiceWrapper/>
     <About />
     <Reservation />

@@ -3,7 +3,7 @@ import * as Yup from "yup"
 
 export const reservationSchema = Yup.object({
     fullname: Yup.string()
-    .required("Adınız  tələb olunur.")
+    .required("Adınızı qeyd edin.")
     ,
 
     phoneNumber:Yup.string()
@@ -11,13 +11,13 @@ export const reservationSchema = Yup.object({
     .min(10,"Nomrəniz 10  rəqəmdən ibarət olmalıdır."),
 
     email:Yup.string()
-    .required("Elektron adressinizi qeyd edin"),
+    .required("Elektron ünvanı qeyd edin."),
     
     xidmet: Yup.string()
     .required("Bu xana doldurulmalidir.")
     ,
 
     elaveistek: Yup.string()
-    .required("İstəklərinizi qeyd edin")
-    .min(15,"İstəyinizi anlaya bilmək üçün daha ətraflı qeyd edin.")
+    .required("Mətn qeyd edin.")
+    .min(15,"Mətn qeyd edin.")
 })
